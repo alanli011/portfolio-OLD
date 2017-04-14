@@ -10,8 +10,42 @@ header, body {
     margin-bottom: 2px;
 }
 
-.container {
-    margin-top: 51px;
+.container >div {
+    padding-top: 51px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#aboutMe {
+    background-color: rgb(57, 93, 122);
+    color: white;
+    padding-top: 51px;
+    text-align: center;
+    max-width: 100%;
+}
+
+#aboutMe .description {
+    font-size: 20px;
+    padding-right: 91px;
+    padding-top: 82px;
+}
+
+#aboutMe img {
+    margin-bottom: 20px;
+}
+
+#projects {
+    padding-top: 10px;
+}
+
+#projects h2 {
+    padding-bottom: 20px;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
@@ -21,12 +55,23 @@ header, body {
   font-family: 'zocial', sans-serif;
   display: inline-block;
   width: 2em;
+  font-size: 16px;
 }
 
-h2 {
-    font-size: 36px;
+footer {
+    background-color: rgb(15, 48, 76);
+    color: white;
+    padding-bottom: 14px;
+    padding-top: 1px;
+    max-width: 100%;
 }
 
-h3 {
-    font-size: 24px;
+footer a {
+    font-size: 16px;
+}
+
+/*Breaking out of bootstrap container*/
+.break {
+    text-align: center;
+    max-width: 100%;
 }
