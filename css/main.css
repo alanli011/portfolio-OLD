@@ -20,7 +20,7 @@ header, body {
 @media screen and (max-width: 767px) {
     .navbar-nav {
         z-index: 10;
-        background-color: #fff;
+        background-color: #212121;
         width: 300px;
         position: absolute;
         /* This trasform moves the drawer off canvas. */
@@ -35,7 +35,7 @@ header, body {
     }
     .nav_item {
         display: list-item;
-        border-bottom: 1px solid #E0E0E0;
+        border-bottom: 1px;
         width: 100%;
         text-align: left;
     }
