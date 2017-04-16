@@ -2,6 +2,10 @@ header, body {
     font-family: 'Lato', sans-serif;
 }
 
+.navbar {
+    padding: 0 1em;
+}
+
 .navbar-header h3, .navbar-header h4 {
     color: white;
     font-size: 14px;
@@ -10,42 +14,38 @@ header, body {
     margin-bottom: 2px;
 }
 
-#nav-toggle {
+#nav_toggle {
     float: right;
     display: none;
     font-size: 2em;
     color: white;
 }
 
-@media screen and (max-width: 767px) {
-    .navbar-nav {
-        z-index: 10;
-        background-color: #212121;
-        width: 300px;
-        position: absolute;
-        /* This trasform moves the drawer off canvas. */
-        -webkit-transform: translate(-300px, 0);
-        transform: translate(-300px, 0);
-        /* Optionally, we animate the drawer. */
-        transition: transform 0.3s ease;
-    }
-    .navbar-nav.open {
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0);
-    }
-    .nav_item {
-        display: list-item;
-        border-bottom: 1px;
-        width: 100%;
-        text-align: left;
-    }
-    .nav_menu {
-        display: inline-block;
-        position: absolute;
-        right: 0;
-        padding: 1em;
-    }
+.front_page_image {
+    overflow: hidden;
+    position: relative;
+    background-image: url("../images/front_page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
 
+/*.front_page_image img {
+    width: 100%;
+    max-height: 900px;
+}*/
+
+#header-text {
+/*    position: absolute;
+    top: 260px;
+    left: 0;*/
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    border: 1.5px solid white;
+    margin-top: 400px;
 }
 
 .container >div {

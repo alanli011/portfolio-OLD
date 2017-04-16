@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='http://weloveiconfonts.com/api/?family=zocial' rel='stylesheet'>
 
     <title>Alan's Portfolio</title>
@@ -20,7 +21,7 @@
                 <h4>Full-Stack Web Developer</h4>
             </div>
             <!-- Hamburger menu icon -->
-            <a id="menu" class="nav_menu" href="#">&#9776;</a>
+            <a id="nav_toggle" class="nav_menu" href="#">&#9776;</a>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
                 <li class="nav_item"><a href="#projects">Projects</a></li>
@@ -32,6 +33,17 @@
     </nav>
 
     <main>
+
+<!-- Top image -->
+        <div class="front_page_image">
+            <!-- <img src="images/front_page.jpg" alt="Gray image of park"> -->
+            <div class="container">
+                <div class="row">
+                    <div id="header-text">Welcome to my website</div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="container text-center">
 
@@ -113,11 +125,11 @@
       /*
        * Open the drawer when the menu ison is clicked.
        */
-      var menu = document.querySelector('#menu');
+      var nav_toggle = document.querySelector('#nav_toggle');
       var main = document.querySelector('main');
       var navbar = document.querySelector('.navbar-nav');
 
-      menu.addEventListener('click', function(e) {
+      nav_toggle.addEventListener('click', function(e) {
         navbar.classList.toggle('open');
         e.stopPropagation();
       });
