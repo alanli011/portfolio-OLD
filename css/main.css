@@ -24,7 +24,7 @@ header, body {
 .front_page_image {
     overflow: hidden;
     position: relative;
-    background-image: url("../images/front_page.jpg");
+    background-image: url("../images/fire.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
