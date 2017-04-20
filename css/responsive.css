@@ -14,13 +14,13 @@
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
-    .nav_item {
+    .nav-item {
         display: list-item;
         border-bottom: 1px;
         width: 100%;
         text-align: left;
     }
-    .nav_menu {
+    .nav-menu {
         display: inline-block !important;
         position: absolute;
         right: 0;
@@ -28,7 +28,7 @@
         padding-right: 0.5em;
         padding-top: 4px;
     }
-    .front_page_image {
+    .front-page-image {
         height: 400px;
     }
     #header-text {
@@ -42,7 +42,7 @@
         font-size: 4em;
         margin-top: 184px;
     }
-    .front_page_image {
+    .front-page-image {
         height: 549px;
     }
 }

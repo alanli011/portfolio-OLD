@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript" src="js/script.js" async></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='http://weloveiconfonts.com/api/?family=zocial' rel='stylesheet'>
@@ -21,38 +22,40 @@
                 <h4>Full-Stack Web Developer</h4>
             </div>
             <!-- Hamburger menu icon -->
-            <a id="nav_toggle" class="nav_menu" href="#">&#9776;</a>
+            <a id="nav_toggle" class="nav-menu" href="#">&#9776;</a>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
-                <li class="nav_item"><a href="#aboutMe">About</a></li>
-                <li class="nav_item"><a href="#projects">Projects</a></li>
-                <li class="nav_item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#aboutMe">About</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
             </ul>
-
         </div>
     </nav>
 
-    <main>
 
 <!-- Top image -->
-        <div class="front_page_image">
-            <!-- <img src="images/front_page.jpg" alt="Gray image of park"> -->
-            <div class="container">
-                <div class="row">
+    <div class="front-page-image">
+        <!-- <img src="images/front_page.jpg" alt="Gray image of park"> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
                     <div id="header-text">Welcome to my website</div>
                 </div>
             </div>
         </div>
+    </div>
 
-
+    <main>
         <div class="container text-center">
 
         <!-- A little about myself -->
 
             <div id="aboutMe">
                 <div class="row">
-                    <h2>About Me</h2>
-                    <hr>
+                    <div class="col-md-12">
+                        <h2>About Me</h2>
+                        <hr>
+                    </div>
                     <div class="col-md-3">
                         <img src="images/portfolio_image.jpg" width="200px" height="300px" alt="image of myself">
                     </div>
@@ -69,14 +72,16 @@
                     <div class="col-md-12">
                         <h2>Here Are My Projects</h2>
                     </div>
-                    <div class="col-md-6 Movie_trailer_website">
-                        <a href="https://github.com/alanli011/Movie_Trailer_Website"><img src="images/movie_trailer_website.png" width="400px" height="250px" alt="movie trailers">
-                        </a>
-                        <h3>Movie Trailer Website</h3>
-                        <p>Created a webpage of trailers using Python. The webpage consists of the movie titles, box arts, and links to the youtube trailer when you click on the splash art. </p>
-                        <p>
-                            <a href="https://github.com/alanli011/Movie_Trailer_Website.git">Movie Trailer Link</a>
-                        </p>
+                    <div class="col-md-6">
+                        <div class="project#1">
+                            <a href="https://github.com/alanli011/Movie_Trailer_Website"><img src="images/movie_trailer_website.png" width="400" height="250" alt="movie trailers">
+                            </a>
+                            <h3>Movie Trailer Website</h3>
+                            <p>Created a webpage of trailers using Python. The webpage consists of the movie titles, box arts, and links to the youtube trailer when you click on the splash art. </p>
+                            <p>
+                                <a href="https://github.com/alanli011/Movie_Trailer_Website.git">Movie Trailer Link</a>
+                            </p>
+                        </div>
                     </div>
                     <div class="col-md-6 Project_#2">
                         <a href="http://placehold.it"><img src="http://lorempixel.com/400/250/nature" alt="nature images"></a>
@@ -110,33 +115,21 @@
         <!-- Social media using zocial -->
 
             <footer>
-                <div id="contact">
-                    <h2 class="break text-center">Connect With Me</h2>
-                    <ul class="break text-center">
-                        <a class="zocial-gmail" href="li.alan011@gmail.com">My Email</a>
-                        <a class="zocial-github" href="https://github.com/alanli011">Alan's GitHub</a>
-                        <a class="zocial-linkedin" href="http://www.linkedin.com/in/alan-li-730143133">Alan's LinkedIn</a>
-                    </ul>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="contact">
+                            <h2 class="break text-center">Connect With Me</h2>
+                            <ul class="break text-center">
+                                <a class="zocial-gmail" href="li.alan011@gmail.com">My Email</a>
+                                <a class="zocial-github" href="https://github.com/alanli011">Alan's GitHub</a>
+                                <a class="zocial-linkedin" href="http://www.linkedin.com/in/alan-li-730143133">Alan's LinkedIn</a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
     </main>
-    <script>
-      /*
-       * Open the drawer when the menu ison is clicked.
-       */
-      var nav_toggle = document.querySelector('#nav_toggle');
-      var main = document.querySelector('main');
-      var navbar = document.querySelector('.navbar-nav');
-
-      nav_toggle.addEventListener('click', function(e) {
-        navbar.classList.toggle('open');
-        e.stopPropagation();
-      });
-      main.addEventListener('click', function() {
-        navbar.classList.remove('open');
-      });
-    </script>
 
 </body>
 </html>

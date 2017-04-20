@@ -1,12 +1,14 @@
-header, body {
-    font-family: 'Lato', sans-serif;
+header,
+body {
+    font-family: "Lato", sans-serif;
 }
 
 .navbar {
     padding: 0 1em;
 }
 
-.navbar-header h3, .navbar-header h4 {
+.navbar-header h3,
+.navbar-header h4 {
     color: white;
     font-size: 14px;
     padding-top: 0;
@@ -21,13 +23,13 @@ header, body {
     color: white;
 }
 
-.front_page_image {
+.front-page-image {
     overflow: hidden;
     position: relative;
     background-image: url("../images/fire.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 960px;
 }
 
 /*.front_page_image img {
@@ -43,19 +45,26 @@ header, body {
     color: white;
     font-size: 5em;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     border: 1.5px solid white;
     margin-top: 400px;
+
 }
 
 .container >div {
     padding-top: 51px;
 }
 
+#aboutMe h2 {
+    font-size: 36px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
 h2 {
     font-size: 36px;
 }
-
 h3 {
     font-size: 24px;
 }
@@ -63,7 +72,7 @@ h3 {
 #aboutMe {
     background-color: rgb(57, 93, 122);
     color: white;
-    padding-top: 51px;
+    padding-top: 11px;
     text-align: center;
 /*    margin-left: -120px;
     margin-right: -120px;*/
