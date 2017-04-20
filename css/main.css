@@ -31,6 +31,11 @@ body {
     padding-right: 10px;
 }
 
+.navbar-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 
 .front-page-image {
     overflow: hidden;
