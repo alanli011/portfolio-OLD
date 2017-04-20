@@ -58,8 +58,8 @@ body {
 #aboutMe h2 {
     font-size: 36px;
     padding-top: 11px;
-    padding-bottom: 15px;
-    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 33px;
 }
 
 h2 {
@@ -95,7 +95,7 @@ h3 {
 }
 
 #projects h2 {
-    padding-bottom: 20px;
+    padding-bottom: 44px;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);

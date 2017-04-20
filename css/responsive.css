@@ -29,11 +29,31 @@
         padding-top: 4px;
     }
     .front-page-image {
-        height: 400px;
+        width: 100%;
+        height: auto;
     }
     #header-text {
         margin-top: 139px;
         font-size: 4em;
+    }
+    .project-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-4 img {
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -44,5 +64,27 @@
     }
     .front-page-image {
         height: 549px;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    #header-text {
+        font-size: 4em;
+        margin-top: 0;
+    }
+    .front-page-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 398px) and (max-width: 840px) {
+    .front-page-image {
+        width: 100%;
+        height: auto;
+    }
+    #header-text {
+        font-size: 4em;
+        margin-bottom: 156px;
     }
 }
