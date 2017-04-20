@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='http://weloveiconfonts.com/api/?family=zocial' rel='stylesheet'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <title>Alan's Portfolio</title>
 </head>
@@ -18,11 +19,15 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <h3>Alan Li</h3>
-                <h4>Full-Stack Web Developer</h4>
+                <i class="fa fa-camera header-logo fa-2x" aria-hidden="true"></i>
+                <div>
+                    <h3>Alan Li</h3>
+                    <h4>Full-Stack Web Developer</h4>
+                </div>
+
             </div>
             <!-- Hamburger menu icon -->
-            <a id="nav_toggle" class="nav-menu" href="#">&#9776;</a>
+            <i id="nav-toggle" class="fa fa-bars nav-menu" aria-hidden="true"></i>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
                 <li class="nav-item"><a href="#aboutMe">About</a></li>
@@ -35,7 +40,6 @@
 
 <!-- Top image -->
     <div class="front-page-image">
-        <!-- <img src="images/front_page.jpg" alt="Gray image of park"> -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -57,7 +61,9 @@
                         <hr>
                     </div>
                     <div class="col-md-3">
-                        <img src="images/portfolio_image.jpg" width="200px" height="300px" alt="image of myself">
+                        <div class="portrait">
+                            <img src="images/portfolio_image.jpg" width="200" height="300" alt="image of myself">
+                        </div>
                     </div>
                     <div class="col-md-9">
                         <p class="description">Hi, I'm Alan. I am a aspiring Full-Stack Web Developer in Riverside, CA. Check out some of my projects below. I've created a webpage of movie trailers using Python and currently working with HTML and CSS to create front end pages and responsive websites.</p>
@@ -74,12 +80,12 @@
                     </div>
                     <div class="col-md-6">
                         <div class="project-1">
-                            <a href="https://github.com/alanli011/Movie_Trailer_Website"><img src="images/movie_trailer_website.png" width="400" height="250" alt="movie trailers">
+                            <a href="https://github.com/alanli011/Movie_Trailer_Website" target="_blank"><img src="images/movie_trailer_website.png" width="400" height="250" alt="movie trailers">
                             </a>
                             <h3>Movie Trailer Website</h3>
                             <p>Created a webpage of trailers using Python. The webpage consists of the movie titles, box arts, and links to the youtube trailer when you click on the splash art. </p>
                             <p>
-                                <a href="https://github.com/alanli011/Movie_Trailer_Website.git">Movie Trailer Link</a>
+                                <a href="https://github.com/alanli011/Movie_Trailer_Website.git" target="_blank">Movie Trailer Link</a>
                             </p>
                         </div>
                     </div>
@@ -126,9 +132,9 @@
                         <div id="contact">
                             <h2 class="break text-center">Connect With Me</h2>
                             <ul class="break text-center">
-                                <a class="zocial-gmail" href="li.alan011@gmail.com">My Email</a>
-                                <a class="zocial-github" href="https://github.com/alanli011">Alan's GitHub</a>
-                                <a class="zocial-linkedin" href="http://www.linkedin.com/in/alan-li-730143133">Alan's LinkedIn</a>
+                                <a class="zocial-gmail" href="li.alan011@gmail.com" target="_blank">My Email</a>
+                                <a class="zocial-github" href="https://github.com/alanli011" target="_blank">Alan's GitHub</a>
+                                <a class="zocial-linkedin" href="http://www.linkedin.com/in/alan-li-730143133" target="_blank">Alan's LinkedIn</a>
                             </ul>
                         </div>
                     </div>

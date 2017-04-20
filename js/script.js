@@ -1,7 +1,7 @@
 /*
 * Open the drawer when the menu ison is clicked.
 */
-var nav_toggle = document.querySelector('#nav_toggle');
+var nav_toggle = document.querySelector('#nav-toggle');
 var main = document.querySelector('main');
 var navbar = document.querySelector('.navbar-nav');
 

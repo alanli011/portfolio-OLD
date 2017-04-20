@@ -14,14 +14,23 @@ body {
     padding-top: 0;
     margin-top: 5px;
     margin-bottom: 2px;
+    width: 200px;
 }
 
-#nav_toggle {
+#nav-toggle {
     float: right;
     display: none;
     font-size: 2em;
     color: white;
 }
+
+.header-logo {
+    float: left;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
 
 .front-page-image {
     overflow: hidden;
@@ -48,6 +57,7 @@ body {
     font-family: "Roboto", sans-serif;
     border: 1.5px solid white;
     margin-top: 400px;
+    text-shadow: 2px 2px #000;
 
 }
 

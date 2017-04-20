@@ -26,7 +26,7 @@
         right: 0;
         top: 0;
         padding-right: 0.5em;
-        padding-top: 4px;
+        padding-top: 10px;
     }
     .front-page-image {
         width: 100%;
@@ -53,6 +53,11 @@
 
     .project-4 img {
         width: 100%;
+        height: auto;
+    }
+
+    .portrait img {
+        width: 50%;
         height: auto;
     }
 }
